@@ -17,11 +17,11 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "App.tsx", 
-    "index.tsx", 
-    "types.ts", 
-    "utils.ts", 
-    "components/**/*"
+    "App.tsx",
+    "index.tsx",
+    "types.ts",
+    "utils.ts",
+    "components"
   ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "exclude": ["node_modules", "vite.config.ts"]
 }
