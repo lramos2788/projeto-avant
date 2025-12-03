@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { PatientData, INITIAL_DATA } from './types';
-import { FormSection, Input, Select, TextArea } from './components/FormComponents';
+import { FormSection, Input, Select, TextArea } from './FormComponents';
 import { encodeData, decodeData, downloadJSON } from './utils';
 import { 
   ClipboardDocumentCheckIcon, 
