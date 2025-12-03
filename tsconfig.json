@@ -21,7 +21,7 @@
     "index.tsx",
     "types.ts",
     "utils.ts",
-    "components"
+    "FormComponents.tsx"
   ],
   "exclude": ["node_modules", "dist", "**/*.config.ts", "**/*.config.js"]
 }
